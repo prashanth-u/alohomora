@@ -1,2 +1,3 @@
 # alohomora
 Home security system
+The idea behind this is that the device would be placed outside your main door, and whenever someone rings the bell, you get notified of it in the application. If it's a person in your contacts, you get a customised notification with his details and have the option of letting them in (or closing the door!) This application also detects motion near your door and sends across notification for the same.  And lastly, it also opens the door automatically for you!  We used python to program the IOT device and also used Firebase as the online database. The application was developed in Swift5.
