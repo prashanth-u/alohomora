@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC1F358F25A15C24D3ACE51 /* Pods_Alohomora_AlohomoraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36F1015AD61F463FDD5BCDE /* Pods_Alohomora_AlohomoraUITests.framework */; };
+		6007F50A2373C56B00482828 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F5092373C56B00482828 /* HistoryTableViewCell.swift */; };
+		6007F50C2373CA1A00482828 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F50B2373CA1A00482828 /* HistoryTableViewController.swift */; };
+		6007F50E2373D0B900482828 /* ButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F50D2373D0B900482828 /* ButtonData.swift */; };
+		6007F5102374058200482828 /* HistoryMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F50F2374058200482828 /* HistoryMenuViewController.swift */; };
+		6007F512237453A200482828 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F511237453A200482828 /* Device.swift */; };
+		6007F51523745F3E00482828 /* DeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F51423745F3E00482828 /* DeviceTableViewController.swift */; };
+		6007F51723745F5100482828 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6007F51623745F5100482828 /* DeviceTableViewCell.swift */; };
+		6012BA362371628400677F75 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA352371628400677F75 /* ContactsTableViewController.swift */; };
+		6012BA382371629300677F75 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA372371629300677F75 /* ContactsTableViewCell.swift */; };
+		6012BA3B237164E100677F75 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA3A237164E100677F75 /* Contacts.swift */; };
+		6012BA3E237274E700677F75 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA3D237274E700677F75 /* SettingsViewController.swift */; };
+		6012BA4423727A5F00677F75 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA4323727A5F00677F75 /* AddPhotoViewController.swift */; };
+		6012BA4623728E2C00677F75 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA4523728E2C00677F75 /* ImageData.swift */; };
+		6012BA4823729BAB00677F75 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA4723729BAB00677F75 /* HomeViewController.swift */; };
+		6012BA4C2372EB0A00677F75 /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA4B2372EB0A00677F75 /* ImagesTableViewController.swift */; };
+		6012BA522373052900677F75 /* ImageCellUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012BA512373052900677F75 /* ImageCellUITableViewCell.swift */; };
+		6066AF942375166D00F4CCBA /* AddToContactVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066AF932375166D00F4CCBA /* AddToContactVCViewController.swift */; };
+		6066AF9623753EBE00F4CCBA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066AF9523753EBE00F4CCBA /* ImageCollectionViewCell.swift */; };
+		6066AF9823753ECF00F4CCBA /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066AF9723753ECF00F4CCBA /* GalleryCollectionViewController.swift */; };
+		6066AF9A2377D39200F4CCBA /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066AF992377D39200F4CCBA /* NotificationDelegate.swift */; };
+		6074A4BE236AB1FE007EDDDA /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6074A4BD236AB1FE007EDDDA /* TabViewController.swift */; };
+		6074A4C1236B29F7007EDDDA /* AddContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6074A4C0236B29F7007EDDDA /* AddContactsViewController.swift */; };
+		607937712368EEA600B1E49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607937702368EEA600B1E49B /* AppDelegate.swift */; };
+		607937732368EEA600B1E49B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607937722368EEA600B1E49B /* ViewController.swift */; };
+		607937762368EEA600B1E49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607937742368EEA600B1E49B /* Main.storyboard */; };
+		607937792368EEA600B1E49B /* Alohomora.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 607937772368EEA600B1E49B /* Alohomora.xcdatamodeld */; };
+		6079377B2368EEA800B1E49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6079377A2368EEA800B1E49B /* Assets.xcassets */; };
+		6079377E2368EEA800B1E49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6079377C2368EEA800B1E49B /* LaunchScreen.storyboard */; };
+		607937892368EEA800B1E49B /* AlohomoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607937882368EEA800B1E49B /* AlohomoraTests.swift */; };
+		607937942368EEA800B1E49B /* AlohomoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607937932368EEA800B1E49B /* AlohomoraUITests.swift */; };
+		60A81B652374665C00E66815 /* AddDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A81B642374665C00E66815 /* AddDeviceViewController.swift */; };
+		60A81B6723746EB700E66815 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A81B6623746EB700E66815 /* ContactDetailsViewController.swift */; };
+		60A81B692374877900E66815 /* MotionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A81B682374877900E66815 /* MotionTableViewController.swift */; };
+		60A81B6B2374878D00E66815 /* MotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A81B6A2374878D00E66815 /* MotionTableViewCell.swift */; };
+		60A81B6D2374880200E66815 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A81B6C2374880200E66815 /* Motion.swift */; };
+		60A81B6F23748E5000E66815 /* MotionVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A81B6E23748E5000E66815 /* MotionVideo.swift */; };
+		60E308272368F8450039FEDB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E308262368F8450039FEDB /* LoginViewController.swift */; };
+		60E30829236926750039FEDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60E30828236926750039FEDB /* GoogleService-Info.plist */; };
+		60E3082C236927B60039FEDB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3082B236927B50039FEDB /* SignupViewController.swift */; };
+		60E3082E236949650039FEDB /* LinkDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3082D236949650039FEDB /* LinkDeviceViewController.swift */; };
+		97540F2941DBD40F485BCDA3 /* Pods_Alohomora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66636572912CB2593D508D6 /* Pods_Alohomora.framework */; };
+		F5A560E07B6DB5C2303AF9EA /* Pods_AlohomoraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92C635E4ED8B6B95E365E05 /* Pods_AlohomoraTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607937852368EEA800B1E49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607937652368EEA600B1E49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6079376C2368EEA600B1E49B;
+			remoteInfo = Alohomora;
+		};
+		607937902368EEA800B1E49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607937652368EEA600B1E49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6079376C2368EEA600B1E49B;
+			remoteInfo = Alohomora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036F670235ADD17842278F3F /* Pods-Alohomora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alohomora.debug.xcconfig"; path = "Target Support Files/Pods-Alohomora/Pods-Alohomora.debug.xcconfig"; sourceTree = "<group>"; };
+		1A01365DF5E8C98ACF7C2226 /* Pods-Alohomora-AlohomoraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alohomora-AlohomoraUITests.release.xcconfig"; path = "Target Support Files/Pods-Alohomora-AlohomoraUITests/Pods-Alohomora-AlohomoraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6007F5092373C56B00482828 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		6007F50B2373CA1A00482828 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		6007F50D2373D0B900482828 /* ButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonData.swift; sourceTree = "<group>"; };
+		6007F50F2374058200482828 /* HistoryMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMenuViewController.swift; sourceTree = "<group>"; };
+		6007F511237453A200482828 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		6007F51423745F3E00482828 /* DeviceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewController.swift; sourceTree = "<group>"; };
+		6007F51623745F5100482828 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		6012BA352371628400677F75 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		6012BA372371629300677F75 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		6012BA3A237164E100677F75 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		6012BA3D237274E700677F75 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6012BA4323727A5F00677F75 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		6012BA4523728E2C00677F75 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		6012BA4723729BAB00677F75 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6012BA4B2372EB0A00677F75 /* ImagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
+		6012BA512373052900677F75 /* ImageCellUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellUITableViewCell.swift; sourceTree = "<group>"; };
+		6066AF932375166D00F4CCBA /* AddToContactVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToContactVCViewController.swift; sourceTree = "<group>"; };
+		6066AF9523753EBE00F4CCBA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		6066AF9723753ECF00F4CCBA /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		6066AF992377D39200F4CCBA /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		6074A4BD236AB1FE007EDDDA /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		6074A4C0236B29F7007EDDDA /* AddContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsViewController.swift; sourceTree = "<group>"; };
+		6079376D2368EEA600B1E49B /* Alohomora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alohomora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607937702368EEA600B1E49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607937722368EEA600B1E49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607937752368EEA600B1E49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607937782368EEA600B1E49B /* Alohomora.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alohomora.xcdatamodel; sourceTree = "<group>"; };
+		6079377A2368EEA800B1E49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6079377D2368EEA800B1E49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6079377F2368EEA800B1E49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607937842368EEA800B1E49B /* AlohomoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlohomoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607937882368EEA800B1E49B /* AlohomoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlohomoraTests.swift; sourceTree = "<group>"; };
+		6079378A2368EEA800B1E49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6079378F2368EEA800B1E49B /* AlohomoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlohomoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607937932368EEA800B1E49B /* AlohomoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlohomoraUITests.swift; sourceTree = "<group>"; };
+		607937952368EEA800B1E49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60A81B642374665C00E66815 /* AddDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceViewController.swift; sourceTree = "<group>"; };
+		60A81B6623746EB700E66815 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		60A81B682374877900E66815 /* MotionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTableViewController.swift; sourceTree = "<group>"; };
+		60A81B6A2374878D00E66815 /* MotionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTableViewCell.swift; sourceTree = "<group>"; };
+		60A81B6C2374880200E66815 /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		60A81B6E23748E5000E66815 /* MotionVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionVideo.swift; sourceTree = "<group>"; };
+		60E308262368F8450039FEDB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		60E30828236926750039FEDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60E3082B236927B50039FEDB /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		60E3082D236949650039FEDB /* LinkDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDeviceViewController.swift; sourceTree = "<group>"; };
+		C0BE9245CAE53423E078B365 /* Pods-AlohomoraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlohomoraTests.release.xcconfig"; path = "Target Support Files/Pods-AlohomoraTests/Pods-AlohomoraTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6269A45EBA881C4B74B9457 /* Pods-Alohomora-AlohomoraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alohomora-AlohomoraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Alohomora-AlohomoraUITests/Pods-Alohomora-AlohomoraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C66636572912CB2593D508D6 /* Pods_Alohomora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alohomora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4875778343A510F53E79556 /* Pods-Alohomora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alohomora.release.xcconfig"; path = "Target Support Files/Pods-Alohomora/Pods-Alohomora.release.xcconfig"; sourceTree = "<group>"; };
+		E36F1015AD61F463FDD5BCDE /* Pods_Alohomora_AlohomoraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alohomora_AlohomoraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92C635E4ED8B6B95E365E05 /* Pods_AlohomoraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlohomoraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA404D9584F60E535DA83AC1 /* Pods-AlohomoraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlohomoraTests.debug.xcconfig"; path = "Target Support Files/Pods-AlohomoraTests/Pods-AlohomoraTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6079376A2368EEA600B1E49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97540F2941DBD40F485BCDA3 /* Pods_Alohomora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607937812368EEA800B1E49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A560E07B6DB5C2303AF9EA /* Pods_AlohomoraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6079378C2368EEA800B1E49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC1F358F25A15C24D3ACE51 /* Pods_Alohomora_AlohomoraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7D22649C0B0F06F3A496B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C66636572912CB2593D508D6 /* Pods_Alohomora.framework */,
+				E36F1015AD61F463FDD5BCDE /* Pods_Alohomora_AlohomoraUITests.framework */,
+				E92C635E4ED8B6B95E365E05 /* Pods_AlohomoraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6007F51323745F2900482828 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				6007F51423745F3E00482828 /* DeviceTableViewController.swift */,
+				6007F51623745F5100482828 /* DeviceTableViewCell.swift */,
+				60A81B642374665C00E66815 /* AddDeviceViewController.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		6012BA39237164D200677F75 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				6012BA3A237164E100677F75 /* Contacts.swift */,
+				6012BA4523728E2C00677F75 /* ImageData.swift */,
+				6007F50D2373D0B900482828 /* ButtonData.swift */,
+				6007F511237453A200482828 /* Device.swift */,
+				60A81B6C2374880200E66815 /* Motion.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		6012BA3C237274C700677F75 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6012BA3D237274E700677F75 /* SettingsViewController.swift */,
+				6012BA4323727A5F00677F75 /* AddPhotoViewController.swift */,
+				6012BA4B2372EB0A00677F75 /* ImagesTableViewController.swift */,
+				6012BA512373052900677F75 /* ImageCellUITableViewCell.swift */,
+				6066AF9523753EBE00F4CCBA /* ImageCollectionViewCell.swift */,
+				6066AF9723753ECF00F4CCBA /* GalleryCollectionViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6012BA532373083F00677F75 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				6007F5092373C56B00482828 /* HistoryTableViewCell.swift */,
+				6007F50B2373CA1A00482828 /* HistoryTableViewController.swift */,
+				6007F50F2374058200482828 /* HistoryMenuViewController.swift */,
+				60A81B682374877900E66815 /* MotionTableViewController.swift */,
+				60A81B6A2374878D00E66815 /* MotionTableViewCell.swift */,
+				60A81B6E23748E5000E66815 /* MotionVideo.swift */,
+				6066AF932375166D00F4CCBA /* AddToContactVCViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		6074A4BC236AB1C0007EDDDA /* Tabbed Items */ = {
+			isa = PBXGroup;
+			children = (
+				6074A4BD236AB1FE007EDDDA /* TabViewController.swift */,
+				6012BA4723729BAB00677F75 /* HomeViewController.swift */,
+				6066AF992377D39200F4CCBA /* NotificationDelegate.swift */,
+			);
+			path = "Tabbed Items";
+			sourceTree = "<group>";
+		};
+		6074A4BF236B29C0007EDDDA /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				6074A4C0236B29F7007EDDDA /* AddContactsViewController.swift */,
+				6012BA352371628400677F75 /* ContactsTableViewController.swift */,
+				6012BA372371629300677F75 /* ContactsTableViewCell.swift */,
+				60A81B6623746EB700E66815 /* ContactDetailsViewController.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		607937642368EEA600B1E49B = {
+			isa = PBXGroup;
+			children = (
+				6079376F2368EEA600B1E49B /* Alohomora */,
+				607937872368EEA800B1E49B /* AlohomoraTests */,
+				607937922368EEA800B1E49B /* AlohomoraUITests */,
+				6079376E2368EEA600B1E49B /* Products */,
+				9563B1CF439764308DE57BC5 /* Pods */,
+				0F7D22649C0B0F06F3A496B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6079376E2368EEA600B1E49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6079376D2368EEA600B1E49B /* Alohomora.app */,
+				607937842368EEA800B1E49B /* AlohomoraTests.xctest */,
+				6079378F2368EEA800B1E49B /* AlohomoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6079376F2368EEA600B1E49B /* Alohomora */ = {
+			isa = PBXGroup;
+			children = (
+				6007F51323745F2900482828 /* Devices */,
+				6012BA532373083F00677F75 /* History */,
+				6012BA3C237274C700677F75 /* Settings */,
+				6012BA39237164D200677F75 /* Objects */,
+				6074A4BF236B29C0007EDDDA /* Contacts */,
+				6074A4BC236AB1C0007EDDDA /* Tabbed Items */,
+				60E3082A2369278B0039FEDB /* Authentication */,
+				60E30828236926750039FEDB /* GoogleService-Info.plist */,
+				607937702368EEA600B1E49B /* AppDelegate.swift */,
+				607937722368EEA600B1E49B /* ViewController.swift */,
+				607937742368EEA600B1E49B /* Main.storyboard */,
+				6079377A2368EEA800B1E49B /* Assets.xcassets */,
+				6079377C2368EEA800B1E49B /* LaunchScreen.storyboard */,
+				6079377F2368EEA800B1E49B /* Info.plist */,
+				607937772368EEA600B1E49B /* Alohomora.xcdatamodeld */,
+			);
+			path = Alohomora;
+			sourceTree = "<group>";
+		};
+		607937872368EEA800B1E49B /* AlohomoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				607937882368EEA800B1E49B /* AlohomoraTests.swift */,
+				6079378A2368EEA800B1E49B /* Info.plist */,
+			);
+			path = AlohomoraTests;
+			sourceTree = "<group>";
+		};
+		607937922368EEA800B1E49B /* AlohomoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				607937932368EEA800B1E49B /* AlohomoraUITests.swift */,
+				607937952368EEA800B1E49B /* Info.plist */,
+			);
+			path = AlohomoraUITests;
+			sourceTree = "<group>";
+		};
+		60E3082A2369278B0039FEDB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				60E308262368F8450039FEDB /* LoginViewController.swift */,
+				60E3082B236927B50039FEDB /* SignupViewController.swift */,
+				60E3082D236949650039FEDB /* LinkDeviceViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9563B1CF439764308DE57BC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				036F670235ADD17842278F3F /* Pods-Alohomora.debug.xcconfig */,
+				D4875778343A510F53E79556 /* Pods-Alohomora.release.xcconfig */,
+				C6269A45EBA881C4B74B9457 /* Pods-Alohomora-AlohomoraUITests.debug.xcconfig */,
+				1A01365DF5E8C98ACF7C2226 /* Pods-Alohomora-AlohomoraUITests.release.xcconfig */,
+				EA404D9584F60E535DA83AC1 /* Pods-AlohomoraTests.debug.xcconfig */,
+				C0BE9245CAE53423E078B365 /* Pods-AlohomoraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6079376C2368EEA600B1E49B /* Alohomora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607937982368EEA800B1E49B /* Build configuration list for PBXNativeTarget "Alohomora" */;
+			buildPhases = (
+				C2323345C22C6E69A4D62239 /* [CP] Check Pods Manifest.lock */,
+				607937692368EEA600B1E49B /* Sources */,
+				6079376A2368EEA600B1E49B /* Frameworks */,
+				6079376B2368EEA600B1E49B /* Resources */,
+				254F5548A25FD1C00229E7B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alohomora;
+			productName = Alohomora;
+			productReference = 6079376D2368EEA600B1E49B /* Alohomora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607937832368EEA800B1E49B /* AlohomoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6079379B2368EEA800B1E49B /* Build configuration list for PBXNativeTarget "AlohomoraTests" */;
+			buildPhases = (
+				5FDA1235CECF3943F51DD1F7 /* [CP] Check Pods Manifest.lock */,
+				607937802368EEA800B1E49B /* Sources */,
+				607937812368EEA800B1E49B /* Frameworks */,
+				607937822368EEA800B1E49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607937862368EEA800B1E49B /* PBXTargetDependency */,
+			);
+			name = AlohomoraTests;
+			productName = AlohomoraTests;
+			productReference = 607937842368EEA800B1E49B /* AlohomoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6079378E2368EEA800B1E49B /* AlohomoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6079379E2368EEA800B1E49B /* Build configuration list for PBXNativeTarget "AlohomoraUITests" */;
+			buildPhases = (
+				70569F307E4175D415B0F3EE /* [CP] Check Pods Manifest.lock */,
+				6079378B2368EEA800B1E49B /* Sources */,
+				6079378C2368EEA800B1E49B /* Frameworks */,
+				6079378D2368EEA800B1E49B /* Resources */,
+				0514BB664B97C5A0F24D1F45 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607937912368EEA800B1E49B /* PBXTargetDependency */,
+			);
+			name = AlohomoraUITests;
+			productName = AlohomoraUITests;
+			productReference = 6079378F2368EEA800B1E49B /* AlohomoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607937652368EEA600B1E49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Poornima Sivakumar";
+				TargetAttributes = {
+					6079376C2368EEA600B1E49B = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					607937832368EEA800B1E49B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6079376C2368EEA600B1E49B;
+					};
+					6079378E2368EEA800B1E49B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6079376C2368EEA600B1E49B;
+					};
+				};
+			};
+			buildConfigurationList = 607937682368EEA600B1E49B /* Build configuration list for PBXProject "Alohomora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607937642368EEA600B1E49B;
+			productRefGroup = 6079376E2368EEA600B1E49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6079376C2368EEA600B1E49B /* Alohomora */,
+				607937832368EEA800B1E49B /* AlohomoraTests */,
+				6079378E2368EEA800B1E49B /* AlohomoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6079376B2368EEA600B1E49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6079377E2368EEA800B1E49B /* LaunchScreen.storyboard in Resources */,
+				60E30829236926750039FEDB /* GoogleService-Info.plist in Resources */,
+				6079377B2368EEA800B1E49B /* Assets.xcassets in Resources */,
+				607937762368EEA600B1E49B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607937822368EEA800B1E49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6079378D2368EEA800B1E49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0514BB664B97C5A0F24D1F45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alohomora-AlohomoraUITests/Pods-Alohomora-AlohomoraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alohomora-AlohomoraUITests/Pods-Alohomora-AlohomoraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alohomora-AlohomoraUITests/Pods-Alohomora-AlohomoraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		254F5548A25FD1C00229E7B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alohomora/Pods-Alohomora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alohomora/Pods-Alohomora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alohomora/Pods-Alohomora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDA1235CECF3943F51DD1F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlohomoraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70569F307E4175D415B0F3EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alohomora-AlohomoraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2323345C22C6E69A4D62239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alohomora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607937692368EEA600B1E49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E3082E236949650039FEDB /* LinkDeviceViewController.swift in Sources */,
+				60A81B692374877900E66815 /* MotionTableViewController.swift in Sources */,
+				6066AF9623753EBE00F4CCBA /* ImageCollectionViewCell.swift in Sources */,
+				6012BA522373052900677F75 /* ImageCellUITableViewCell.swift in Sources */,
+				6074A4C1236B29F7007EDDDA /* AddContactsViewController.swift in Sources */,
+				6012BA382371629300677F75 /* ContactsTableViewCell.swift in Sources */,
+				6012BA4823729BAB00677F75 /* HomeViewController.swift in Sources */,
+				60E308272368F8450039FEDB /* LoginViewController.swift in Sources */,
+				607937732368EEA600B1E49B /* ViewController.swift in Sources */,
+				60A81B6D2374880200E66815 /* Motion.swift in Sources */,
+				60A81B652374665C00E66815 /* AddDeviceViewController.swift in Sources */,
+				60E3082C236927B60039FEDB /* SignupViewController.swift in Sources */,
+				6012BA3B237164E100677F75 /* Contacts.swift in Sources */,
+				6012BA4C2372EB0A00677F75 /* ImagesTableViewController.swift in Sources */,
+				6012BA4623728E2C00677F75 /* ImageData.swift in Sources */,
+				6007F50C2373CA1A00482828 /* HistoryTableViewController.swift in Sources */,
+				6012BA4423727A5F00677F75 /* AddPhotoViewController.swift in Sources */,
+				607937712368EEA600B1E49B /* AppDelegate.swift in Sources */,
+				6007F51723745F5100482828 /* DeviceTableViewCell.swift in Sources */,
+				6007F512237453A200482828 /* Device.swift in Sources */,
+				6007F51523745F3E00482828 /* DeviceTableViewController.swift in Sources */,
+				6066AF942375166D00F4CCBA /* AddToContactVCViewController.swift in Sources */,
+				6066AF9823753ECF00F4CCBA /* GalleryCollectionViewController.swift in Sources */,
+				6066AF9A2377D39200F4CCBA /* NotificationDelegate.swift in Sources */,
+				6007F50A2373C56B00482828 /* HistoryTableViewCell.swift in Sources */,
+				60A81B6B2374878D00E66815 /* MotionTableViewCell.swift in Sources */,
+				6074A4BE236AB1FE007EDDDA /* TabViewController.swift in Sources */,
+				60A81B6F23748E5000E66815 /* MotionVideo.swift in Sources */,
+				60A81B6723746EB700E66815 /* ContactDetailsViewController.swift in Sources */,
+				607937792368EEA600B1E49B /* Alohomora.xcdatamodeld in Sources */,
+				6007F5102374058200482828 /* HistoryMenuViewController.swift in Sources */,
+				6012BA362371628400677F75 /* ContactsTableViewController.swift in Sources */,
+				6012BA3E237274E700677F75 /* SettingsViewController.swift in Sources */,
+				6007F50E2373D0B900482828 /* ButtonData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607937802368EEA800B1E49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607937892368EEA800B1E49B /* AlohomoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6079378B2368EEA800B1E49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607937942368EEA800B1E49B /* AlohomoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607937862368EEA800B1E49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6079376C2368EEA600B1E49B /* Alohomora */;
+			targetProxy = 607937852368EEA800B1E49B /* PBXContainerItemProxy */;
+		};
+		607937912368EEA800B1E49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6079376C2368EEA600B1E49B /* Alohomora */;
+			targetProxy = 607937902368EEA800B1E49B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607937742368EEA600B1E49B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607937752368EEA600B1E49B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6079377C2368EEA800B1E49B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6079377D2368EEA800B1E49B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607937962368EEA800B1E49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607937972368EEA800B1E49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607937992368EEA800B1E49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036F670235ADD17842278F3F /* Pods-Alohomora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Alohomora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poornimasivakumar.Alohomora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6079379A2368EEA800B1E49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4875778343A510F53E79556 /* Pods-Alohomora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Alohomora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poornimasivakumar.Alohomora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6079379C2368EEA800B1E49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA404D9584F60E535DA83AC1 /* Pods-AlohomoraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlohomoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poornimasivakumar.AlohomoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alohomora.app/Alohomora";
+			};
+			name = Debug;
+		};
+		6079379D2368EEA800B1E49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BE9245CAE53423E078B365 /* Pods-AlohomoraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlohomoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poornimasivakumar.AlohomoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alohomora.app/Alohomora";
+			};
+			name = Release;
+		};
+		6079379F2368EEA800B1E49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6269A45EBA881C4B74B9457 /* Pods-Alohomora-AlohomoraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlohomoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poornimasivakumar.AlohomoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alohomora;
+			};
+			name = Debug;
+		};
+		607937A02368EEA800B1E49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A01365DF5E8C98ACF7C2226 /* Pods-Alohomora-AlohomoraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlohomoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poornimasivakumar.AlohomoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alohomora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607937682368EEA600B1E49B /* Build configuration list for PBXProject "Alohomora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607937962368EEA800B1E49B /* Debug */,
+				607937972368EEA800B1E49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607937982368EEA800B1E49B /* Build configuration list for PBXNativeTarget "Alohomora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607937992368EEA800B1E49B /* Debug */,
+				6079379A2368EEA800B1E49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6079379B2368EEA800B1E49B /* Build configuration list for PBXNativeTarget "AlohomoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6079379C2368EEA800B1E49B /* Debug */,
+				6079379D2368EEA800B1E49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6079379E2368EEA800B1E49B /* Build configuration list for PBXNativeTarget "AlohomoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6079379F2368EEA800B1E49B /* Debug */,
+				607937A02368EEA800B1E49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		607937772368EEA600B1E49B /* Alohomora.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				607937782368EEA600B1E49B /* Alohomora.xcdatamodel */,
+			);
+			currentVersion = 607937782368EEA600B1E49B /* Alohomora.xcdatamodel */;
+			path = Alohomora.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 607937652368EEA600B1E49B /* Project object */;
+}
